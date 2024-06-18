@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score 
 
 #reading the dataset
-data = pd.read_csv(r'C:\Users\joema\Desktop\NewPasswordchecker\training.csv')
+data = pd.read_csv(r'C:\Users\joema\Desktop\PasswordStrengthChecker\training.csv')
 
 #this prints out the first 5 rows of the datset for inspection
 print(data.head())
